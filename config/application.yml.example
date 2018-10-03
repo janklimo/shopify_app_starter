@@ -1,0 +1,10 @@
+# TODO rename database
+DATABASE_URL: 'postgres://localhost:5432/shopify_app_starter_development'
+HOST: 'http://localhost:3000'
+RAILS_MAX_THREADS: '1'
+RAILS_WEB_CONCURRENCY: '1'
+REDIS_URL: 'redis://localhost:6379'
+
+test:
+  # TODO rename database
+  DATABASE_URL: 'postgres://localhost:5432/shopify_app_starter_test'
