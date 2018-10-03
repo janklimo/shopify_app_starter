@@ -1,7 +1,9 @@
 ShopifyApp.configure do |config|
-  config.application_name = "Image Pro"
+  # TODO rename app
+  config.application_name = "Shopify App Starter"
   config.api_key = ENV['SHOPIFY_CLIENT_API_KEY']
   config.secret = ENV['SHOPIFY_CLIENT_API_SECRET']
+  # TODO update scopes
   config.scope = "read_products, write_products"
   config.embedded_app = true
   config.after_authenticate_job = false
